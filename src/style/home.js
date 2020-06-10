@@ -22,7 +22,7 @@ const Title = styled.h1`
 `;
 
 const Image = styled.img`
-  height: 20vh;
+  height: 10vh;
   transform: ${props => `rotate(${props.angle}deg)`}
 `;
 

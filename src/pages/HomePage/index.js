@@ -32,7 +32,7 @@ const HomePage = () => {
   // };
 
   return (
-    <App ref={appRef}>
+    <App ref={appRef} className="profile-card">
       {/* <Image className="logo" src={logo} ref={ref} angle={calculateAngle()} /> */}
       <Image className="logo" src={logo} ref={ref} />
       <Title>Misfits Market</Title>

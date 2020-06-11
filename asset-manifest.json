@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/MisfitsMarket/static/js/main.996dc48c.chunk.js",
-    "main.js.map": "/MisfitsMarket/static/js/main.996dc48c.chunk.js.map",
+    "main.js": "/MisfitsMarket/static/js/main.9b563343.chunk.js",
+    "main.js.map": "/MisfitsMarket/static/js/main.9b563343.chunk.js.map",
     "runtime~main.js": "/MisfitsMarket/static/js/runtime~main.5c219a04.js",
     "runtime~main.js.map": "/MisfitsMarket/static/js/runtime~main.5c219a04.js.map",
     "static/js/2.f4d50b59.chunk.js": "/MisfitsMarket/static/js/2.f4d50b59.chunk.js",
     "static/js/2.f4d50b59.chunk.js.map": "/MisfitsMarket/static/js/2.f4d50b59.chunk.js.map",
     "index.html": "/MisfitsMarket/index.html",
-    "precache-manifest.35231d183c1a3f3002581d826fed21a0.js": "/MisfitsMarket/precache-manifest.35231d183c1a3f3002581d826fed21a0.js",
+    "precache-manifest.2e33b8abb045752ff7e927b802ad9863.js": "/MisfitsMarket/precache-manifest.2e33b8abb045752ff7e927b802ad9863.js",
     "service-worker.js": "/MisfitsMarket/service-worker.js",
     "static/media/logo.svg": "/MisfitsMarket/static/media/logo.e2c6c8c5.svg"
   }

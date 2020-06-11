@@ -7,9 +7,9 @@ import {configureStore} from 'redux-starter-kit';
 import homePageReducer from './pages/HomePage/homePage';
 
 const store = configureStore({
-    reducer : {
-        Home : homePageReducer
-    }
+  reducer: {
+    Home: homePageReducer
+  }
 });
 
 ReactDOM.render(

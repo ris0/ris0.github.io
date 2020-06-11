@@ -1,5 +1,4 @@
-/* eslint-disable */
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useDispatch, useSelector, shallowEqual } from 'react-redux';
 // import useMouse from 'react-use/lib/useMouse';
 import {

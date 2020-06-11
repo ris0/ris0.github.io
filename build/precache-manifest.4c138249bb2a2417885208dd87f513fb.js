@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ca6a33caeaa7dca4bd9d8e4acfad272e",
+    "revision": "696c81cdbdd2156d07a39a33ed4cfee1",
     "url": "/MisfitsMarket/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MisfitsMarket/static/js/2.f4d50b59.chunk.js"
   },
   {
-    "revision": "5a151ff7dd74eae995ed",
-    "url": "/MisfitsMarket/static/js/main.4107d1d2.chunk.js"
+    "revision": "076b38924321dd5e8391",
+    "url": "/MisfitsMarket/static/js/main.c7d4ae7e.chunk.js"
   },
   {
     "revision": "785662715ad0dbdbcc10",

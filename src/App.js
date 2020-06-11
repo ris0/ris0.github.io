@@ -4,6 +4,15 @@ import HomePage from './pages/HomePage';
 
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+  body {
+    font-family: 'Roboto Mono';
+    background: #eddbc5;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+  }
 
   ul{
     display:grid;
@@ -196,14 +205,6 @@ const GlobalStyle = createGlobalStyle`
     li:nth-child(14n-6){
       grid-column-start:2;
     }
-  }
-
-  body {
-    font-family: 'Roboto Mono';
-    background: #CFB997;
-    background-size: cover;
-    padding: 0px;
-    margin: 0px;
   }
 `;
 

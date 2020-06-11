@@ -116,7 +116,7 @@ const GlobalStyle = createGlobalStyle`
     transition-duration: .3s;
   }
 
-  img:hover {
+  li img:hover {
     transform: translateX(-60%) translateY(-60%) rotatez(-25deg);
   }
 
@@ -200,99 +200,10 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: 'Roboto Mono';
-    overflow: hidden;
-    background: #bcdee7;
+    background: #CFB997;
     background-size: cover;
-    position: fixed;
     padding: 0px;
     margin: 0px;
-    width: 100%;
-    height: 100%;
-  }
-
-  body:before {
-    content: "";
-    height: 0px;
-    padding: 0px;
-    border: 130em solid #313440;
-    position: absolute;
-    left: 50%;
-    top: 100%;
-    z-index: 2;
-    display: block;
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-    animation: puff 0.5s 1.8s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards, borderRadius 0.2s 2.3s linear forwards;
-  }
-
-  @-webkit-keyframes init {
-    0% {
-      width: 0px;
-      height: 0px;
-    }
-    100% {
-      width: 56px;
-      height: 56px;
-      margin-top: 0px;
-      opacity: 1;
-    }
-  }
-
-  @keyframes init {
-    0% {
-      width: 0px;
-      height: 0px;
-    }
-    100% {
-      width: 56px;
-      height: 56px;
-      margin-top: 0px;
-      opacity: 1;
-    }
-  }
-
-  @-webkit-keyframes puff {
-    0% {
-      top: 100%;
-      height: 0px;
-      padding: 0px;
-    }
-    100% {
-      top: 50%;
-      height: 100%;
-      padding: 0px 100%;
-    }
-  }
-
-  @keyframes puff {
-    0% {
-      top: 100%;
-      height: 0px;
-      padding: 0px;
-    }
-    100% {
-      top: 50%;
-      height: 100%;
-      padding: 0px 100%;
-    }
-  }
-
-  @-webkit-keyframes borderRadius {
-    0% {
-      -webkit-border-radius: 50%;
-    }
-    100% {
-      -webkit-border-radius: 0px;
-    }
-  }
-
-  @keyframes borderRadius {
-    0% {
-      -webkit-border-radius: 50%;
-    }
-    100% {
-      border-radius: 0px;
-    }
   }
 `;
 

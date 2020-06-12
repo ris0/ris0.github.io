@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/MisfitsMarket/static/css/main.2cbe2f99.chunk.css",
-    "main.js": "/MisfitsMarket/static/js/main.16347623.chunk.js",
-    "main.js.map": "/MisfitsMarket/static/js/main.16347623.chunk.js.map",
+    "main.css": "/MisfitsMarket/static/css/main.7775677d.chunk.css",
+    "main.js": "/MisfitsMarket/static/js/main.b3829d2d.chunk.js",
+    "main.js.map": "/MisfitsMarket/static/js/main.b3829d2d.chunk.js.map",
     "runtime-main.js": "/MisfitsMarket/static/js/runtime-main.fe68f537.js",
     "runtime-main.js.map": "/MisfitsMarket/static/js/runtime-main.fe68f537.js.map",
     "static/js/2.76d811bb.chunk.js": "/MisfitsMarket/static/js/2.76d811bb.chunk.js",
     "static/js/2.76d811bb.chunk.js.map": "/MisfitsMarket/static/js/2.76d811bb.chunk.js.map",
     "index.html": "/MisfitsMarket/index.html",
-    "precache-manifest.deea908be25bfe49f5b25e5d4d4258f6.js": "/MisfitsMarket/precache-manifest.deea908be25bfe49f5b25e5d4d4258f6.js",
+    "precache-manifest.a662d4fcdf91bbf191424ffffcf282a6.js": "/MisfitsMarket/precache-manifest.a662d4fcdf91bbf191424ffffcf282a6.js",
     "service-worker.js": "/MisfitsMarket/service-worker.js",
-    "static/css/main.2cbe2f99.chunk.css.map": "/MisfitsMarket/static/css/main.2cbe2f99.chunk.css.map",
+    "static/css/main.7775677d.chunk.css.map": "/MisfitsMarket/static/css/main.7775677d.chunk.css.map",
     "static/js/2.76d811bb.chunk.js.LICENSE.txt": "/MisfitsMarket/static/js/2.76d811bb.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/MisfitsMarket/static/media/logo.e2c6c8c5.svg",
-    "static/media/ProductGrid.css": "/MisfitsMarket/static/media/sold-out.b1186c09.svg"
+    "static/media/sold-out.svg": "/MisfitsMarket/static/media/sold-out.b1186c09.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.fe68f537.js",
     "static/js/2.76d811bb.chunk.js",
-    "static/css/main.2cbe2f99.chunk.css",
-    "static/js/main.16347623.chunk.js"
+    "static/css/main.7775677d.chunk.css",
+    "static/js/main.b3829d2d.chunk.js"
   ]
 }

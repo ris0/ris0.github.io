@@ -34,7 +34,8 @@ ul {
 }
 
 .product-soldout {
-  background-color: red !important;
+  margin: 0px;
+  background-color: red;
 }
 
 .product::before, .product::after {
@@ -47,6 +48,10 @@ ul {
 
 .soldout {
   width: 50%;
+}
+
+.soldout-message {
+  padding: 10px;
 }
 
 .product::before {

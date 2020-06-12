@@ -6,7 +6,7 @@ import './App.css';
 class App extends React.Component {
   constructor() {
     super();
-    this.state = {products: []};
+    this.state = { products: [] };
   }
 
   componentDidMount() {
@@ -16,7 +16,7 @@ class App extends React.Component {
   }
 
   render() {
-    var products = this.state.products;
+    const products = this.state.products;
     return (
       <div className="App">
         <Logo />

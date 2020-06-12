@@ -15,15 +15,6 @@ ul {
   background-color: #EEBC1F;
 }
 
-/* .product-detail {
-  width: 106.25px;
-  height: 106.25px;
-  margin-right: 15px;
-  float: left;
-  border-radius: 3px;
-  background: rgba(238, 228, 218, 0.35);
-} */
-
 .product .product-detail {
   position: absolute;
   width: 65%;
@@ -38,10 +29,12 @@ ul {
   font-size: 12px;
 }
 
-.product .product-detail:hover {
+.product .product-available:hover {
   transform: translateX(-60%) translateY(-60%) rotatez(-45deg);
-  /*   transform: translateX(-60%) translateY(-60%) rotatez(-25deg);
- */
+}
+
+.product-soldout {
+  background-color: red !important;
 }
 
 .product::before, .product::after {
@@ -52,6 +45,9 @@ ul {
   content: '';
 }
 
+.soldout {
+  width: 50%;
+}
 
 .product::before {
   z-index: -10;

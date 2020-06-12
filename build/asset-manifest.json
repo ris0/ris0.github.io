@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/MisfitsMarket/static/css/main.c6a96223.chunk.css",
-    "main.js": "/MisfitsMarket/static/js/main.dca721c2.chunk.js",
-    "main.js.map": "/MisfitsMarket/static/js/main.dca721c2.chunk.js.map",
+    "main.css": "/MisfitsMarket/static/css/main.c3a3e52d.chunk.css",
+    "main.js": "/MisfitsMarket/static/js/main.80a27150.chunk.js",
+    "main.js.map": "/MisfitsMarket/static/js/main.80a27150.chunk.js.map",
     "runtime-main.js": "/MisfitsMarket/static/js/runtime-main.fe68f537.js",
     "runtime-main.js.map": "/MisfitsMarket/static/js/runtime-main.fe68f537.js.map",
-    "static/js/2.9377d9dd.chunk.js": "/MisfitsMarket/static/js/2.9377d9dd.chunk.js",
-    "static/js/2.9377d9dd.chunk.js.map": "/MisfitsMarket/static/js/2.9377d9dd.chunk.js.map",
+    "static/js/2.e21691df.chunk.js": "/MisfitsMarket/static/js/2.e21691df.chunk.js",
+    "static/js/2.e21691df.chunk.js.map": "/MisfitsMarket/static/js/2.e21691df.chunk.js.map",
     "index.html": "/MisfitsMarket/index.html",
-    "precache-manifest.18f987051c77b017d5e329d6252a4ce7.js": "/MisfitsMarket/precache-manifest.18f987051c77b017d5e329d6252a4ce7.js",
+    "precache-manifest.5d6357c31167e16ecccdd3425123ac92.js": "/MisfitsMarket/precache-manifest.5d6357c31167e16ecccdd3425123ac92.js",
     "service-worker.js": "/MisfitsMarket/service-worker.js",
-    "static/css/main.c6a96223.chunk.css.map": "/MisfitsMarket/static/css/main.c6a96223.chunk.css.map",
-    "static/js/2.9377d9dd.chunk.js.LICENSE.txt": "/MisfitsMarket/static/js/2.9377d9dd.chunk.js.LICENSE.txt",
+    "static/css/main.c3a3e52d.chunk.css.map": "/MisfitsMarket/static/css/main.c3a3e52d.chunk.css.map",
+    "static/js/2.e21691df.chunk.js.LICENSE.txt": "/MisfitsMarket/static/js/2.e21691df.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/MisfitsMarket/static/media/logo.e2c6c8c5.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.fe68f537.js",
-    "static/js/2.9377d9dd.chunk.js",
-    "static/css/main.c6a96223.chunk.css",
-    "static/js/main.dca721c2.chunk.js"
+    "static/js/2.e21691df.chunk.js",
+    "static/css/main.c3a3e52d.chunk.css",
+    "static/js/main.80a27150.chunk.js"
   ]
 }

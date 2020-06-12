@@ -4,6 +4,10 @@ import './ProductGrid.css';
 
 // TODO: need to reconsider design for product cards
 // should conditionally render; if products is null or sold out... render a sold out image
+// render a class for a product that is sold out
+//
+
+// https://previews.123rf.com/images/mearicon/mearicon1810/mearicon181000082/114177215-king-oyster-mushrooms-isolated-on-white.jpg
 const ProductGrid = ({ products }) => {
   return (
   <ul className="product-grid">

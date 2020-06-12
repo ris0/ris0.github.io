@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/MisfitsMarket/precache-manifest.a662d4fcdf91bbf191424ffffcf282a6.js"
+  "/MisfitsMarket/precache-manifest.c20425feaa577304070746e9ce6603a5.js"
 );
 
 self.addEventListener('message', (event) => {

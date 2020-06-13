@@ -23,7 +23,7 @@ class App extends React.Component {
 
   triggerSuccessMessage() {
     this.setState({ orderSuccessful: true });
-    setTimeout(() => this.setState({ orderSuccessful: false }), 1500);
+    // setTimeout(() => this.setState({ orderSuccessful: false }), 1500);
   }
 
   render() {

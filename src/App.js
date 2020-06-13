@@ -3,6 +3,7 @@ import Logo from './components/Logo/Logo';
 import ProductGrid from './components/ProductGrid/ProductGrid';
 import SoldOut from './components/SoldOut/SoldOut';
 import SuccessMessage from './components/SuccessMessage/SuccessMessage';
+import Loader from './components/Loader/Loader';
 import './App.css';
 
 class App extends React.Component {
@@ -22,7 +23,7 @@ class App extends React.Component {
 
   triggerSuccessMessage() {
     this.setState({ orderSuccessful: true });
-    // setTimeout(() => this.setState({ orderSuccessful: false }), 1500);
+    setTimeout(() => this.setState({ orderSuccessful: false }), 1500);
   }
 
   render() {
@@ -32,6 +33,7 @@ class App extends React.Component {
 
     return (
       <div className="App">
+      <Loader />
         <div className="header">
           <Logo />
           {successMsg}

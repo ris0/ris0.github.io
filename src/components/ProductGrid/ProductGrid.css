@@ -1,0 +1,10 @@
+ul {
+  display:grid;
+  grid-template-columns: repeat(var(--columns),1fr);
+  margin: 150px -40px;
+  list-style-type: none;
+}
+
+.container {
+  position: relative
+}

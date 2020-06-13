@@ -9,18 +9,16 @@ class App extends React.Component {
     this.state = { products: [] };
   }
 
-  componentDidMount() {
+  componentWillMount() {
     fetch('https://applicant-dev.misfitsmarket.com/api/test/v1')
       .then(response => response.json())
       .then(data => {
-        this.props.products = data.data.items;
         this.setState({products:data.data.items})
       });
   }
 
   render() {
     const products = this.state.products;
-    console.log(this.props)
     return (
       <div className="App">
         <Logo />

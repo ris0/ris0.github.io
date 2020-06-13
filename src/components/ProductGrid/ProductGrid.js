@@ -19,23 +19,19 @@ class ProductGrid extends React.Component {
   }
 
   render() {
-    if (!this.props.products || !this.props.products.length) {
-      return <SoldOut />
-    } else {
-      const successMsg = this.state.orderSuccessful ? <SuccessMessage /> : "";
-      return (
-        <div className="container">
-          <ul className="product-grid">
-            {
-              this.props.products.map((product) =>
-              <Product product={product} key={product.id} handleOrder={this.triggerSuccessMessage}/>
-              )
-            }
-            {successMsg}
-          </ul>
-        </div>
-      )
-    }
+    const successMsg = this.state.orderSuccessful ? <SuccessMessage /> : "";
+    return (
+      <div className="container">
+        <ul className="product-grid">
+          {
+            this.props.products.map((product) =>
+            <Product product={product} key={product.id} handleOrder={this.triggerSuccessMessage}/>
+            )
+          }
+          {successMsg}
+        </ul>
+      </div>
+    )
   }
 }
 

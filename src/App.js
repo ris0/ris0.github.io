@@ -1,12 +1,15 @@
 import React from 'react';
 import Logo from './components/Logo/Logo';
 import ProductGrid from './components/ProductGrid/ProductGrid';
+import SoldOut from './components/SoldOut/SoldOut';
 import './App.css';
 
 class App extends React.Component {
   constructor() {
     super();
-    this.state = { products: [] };
+    this.state = {
+      products: []
+    };
   }
 
   componentWillMount() {
@@ -19,10 +22,11 @@ class App extends React.Component {
 
   render() {
     const products = this.state.products;
+    const content = !products || !products.length ? <SoldOut /> : <ProductGrid products={products}/>;
     return (
       <div className="App">
         <Logo />
-        <ProductGrid products={products}/>
+        {content}
       </div>
     )
   }

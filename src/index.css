@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+
+body {
+  font-family: 'Roboto Mono';
+  background: #eddbc5;
+  background-size: cover;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  font-family: 'Staatliches';
+}

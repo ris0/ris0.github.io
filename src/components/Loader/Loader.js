@@ -3,10 +3,10 @@ import './Loader.css';
 
 const Loader = () => {
 return (
-  <div class="loader">
-    <div class="load-text">
-      <div class="loaded-text">Mis</div>
-      <div class="loading-text">fits</div>
+  <div className="loader">
+    <div className="load-text">
+      <div className="loaded-text">Mis</div>
+      <div className="loading-text">fits</div>
     </div>
   </div>
   )
